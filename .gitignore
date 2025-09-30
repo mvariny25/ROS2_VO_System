@@ -1,0 +1,51 @@
+# Ignore build, install, and log directories at any depth
+**/build/
+**/build-*/
+**/install/
+**/log/
+
+
+# Ignore CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Ignore compiled object files, libraries, and binaries
+*.o
+*.lo
+*.la
+*.al
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Ignore generated configs
+*.pc
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore archives
+*.tar
+*.tar.gz
+*.zip
+
+# Ignore dataset outputs or temporary files (optional)
+*.csv
+*.db
+*.bin
+
+# VSCode / CLion / IDE files
+.vscode/
+.idea/
+*.png
+*.jpg
+*.jpeg
+
+# Ignore datasets directory
+datasets/

@@ -1,0 +1,12 @@
+[submodule "orb_src/ORB_SLAM3"]
+	path = orb_src/ORB_SLAM3
+	url = https://github.com/Robo-Dude/ORB-SLAM3_Ubuntu24.04.git
+
+[submodule "orb_src/Pangolin"]
+	path = orb_src/Pangolin
+	url = https://github.com/stevenlovegrove/Pangolin.git
+
+[submodule "orb_src/opencv"]
+	path = orb_src/opencv
+	url = https://github.com/opencv/opencv.git
+

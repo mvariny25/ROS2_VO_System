@@ -42,6 +42,7 @@ int main(int argc, char ** argv)
   image_transport::ImageTransport it(node);
   image_transport::TransportHints hints(node.get());
   image_transport::Subscriber sub = it.subscribe("camera/image", 1, imageCallback, &hints);
+  // image_transport::Subscriber sub = it.subscribe("image", 1, imageCallback, &hints);
   rclcpp::spin(node);
   cv::destroyWindow("view");
 

@@ -15,8 +15,8 @@ def generate_launch_description():
             name='mono',
             output='screen',
             arguments=[
-                '/home/robo-dude/projects/ros2_ws/src/orbslam3_ros2/vocabulary/ORBvoc.txt',
-                '/home/robo-dude/projects/ros2_ws/src/orbslam3_ros2/config/monocular/EuRoC.yaml',
+                '/root/colcon_ws/src/orbslam3_ros2/vocabulary/ORBvoc.txt',
+                '/root/colcon_ws/src/orbslam3_ros2/config/monocular/fg.yaml',
             ],
         ),
         Node(
